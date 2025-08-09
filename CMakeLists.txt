@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)  # minimum version required by QuaZip
 
-project(Launcher)
+project(BambuLauncher VERSION alpha-0.2)
 
 string(COMPARE EQUAL "${CMAKE_SOURCE_DIR}" "${CMAKE_BUILD_DIR}" IS_IN_SOURCE_BUILD)
 if(IS_IN_SOURCE_BUILD)
